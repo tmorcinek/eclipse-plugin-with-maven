@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.morcinek.uml</groupId>
+	<artifactId>uml-parent</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+	<name>Uml parent project</name>
+	<modules>
+		<module>com.morcinek.uml.class-graph-plugin-eclipse</module>
+	</modules>
+	<properties>
+	    <java-version>1.6</java-version>
+		<tycho-version>0.15.0</tycho-version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>juno</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/juno</url>
+		</repository>
+		<repository>
+			<id>maven2</id>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
+	</repositories>
+</project>

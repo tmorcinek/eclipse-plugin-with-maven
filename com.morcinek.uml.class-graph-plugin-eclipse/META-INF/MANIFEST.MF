@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Class Graph Display
+Bundle-SymbolicName: com.morcinek.uml.class-graph-plugin-eclipse;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Vendor: MORCINEK
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.expressions
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-LazyStart: true
+Import-Package: 
+ org.eclipse.core.internal.resources,
+ org.eclipse.core.resources
+Export-Package: com.morcinek.uml.class_graph.plugin
+Bundle-ClassPath: .
