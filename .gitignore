@@ -1,0 +1,27 @@
+# Java class files
+*.class
+ 
+# Can ignore specific files
+#.DS_Store
+
+# Use wildcards as well
+*~
+*.swp
+*.iml
+*.ipr
+*.iws
+*.bin
+atlassian-ide-plugin.xml
+bin
+/.idea
+/.idea/*
+out
+.project
+.settings
+.classpath
+target
+.idea
+gen
+app/res/raw/
+classes/
+tmp/
